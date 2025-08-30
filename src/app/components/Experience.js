@@ -44,19 +44,19 @@ export default function Experience() {
       degree: "Backend Web Development Bootcamp",
       institution: "Re:Coded",
       period: "March 2023 – August 2023",
-      description: "Intensive 5-month program focusing on backend technologies and full-stack development."
+      description: "Intensive 5-month program focusing on backend technologies."
     },
     {
       degree: "BS Computer Science",
       institution: "University of The People",
       period: "January 2023 – August 2024",
-      description: "Comprehensive computer science program with focus on algorithms, data structures, and software engineering principles."
+      description: "Comprehensive computer science program with focus on algorithms, data structures, and other important topics for successful business such as psychology and management principles."
     },
     {
       degree: "BS Software Engineering",
       institution: "Altinbas University",
       period: "March 2021 – Present",
-      description: "Software engineering program covering software development lifecycle, project management, and modern development practices."
+      description: "Software engineering program covering topics including software requirements engineering, software development lifecycle, software architecture, and other topics."
     }
   ];
 
