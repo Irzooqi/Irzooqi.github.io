@@ -114,7 +114,7 @@ export default function Contact() {
             {/* Contact Form */}
             <div>
               <h3 className="text-2xl font-semibold mb-8">Send Me a Message</h3>
-              <form className="space-y-6">
+              <form action="https://formspree.io/f/myzdknzw" method="POST" className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-blue-100 mb-2">
                     Your Name
@@ -135,7 +135,7 @@ export default function Contact() {
                   <input
                     type="email"
                     id="email"
-                    name="email"
+                    name="_replyto"
                     className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
                     placeholder="Enter your email"
                   />
